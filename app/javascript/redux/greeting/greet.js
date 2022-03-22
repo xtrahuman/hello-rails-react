@@ -4,9 +4,9 @@ const GET_MESSAGE_SUCCESS = 'greet/GET_MESSAGE_SUCCESS';
 
 // initial state
 const initialState = {
-  messages: [{
+  messages: {
     greet: "Keep clicking on the button to get random greetings"
-  }]
+  }
 };
 
 // Actions

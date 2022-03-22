@@ -21,7 +21,7 @@ const HelloWorld = () => {
          <div>
            Greeting: <button onClick={() => performAction()}>Get Messages</button>
          </div>
-          <p> {state[Math.floor(Math.random() * state.length)].greet}</p>
+          <p> {state.greet}</p>
       </div>
     );
 }
