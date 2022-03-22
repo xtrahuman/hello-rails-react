@@ -8,7 +8,6 @@ const App = () => {
     <Provider store= {store}>
       <BrowserRouter>
         <Routes>
-        <Route path="/hello" element={<p>Home</p>} />
         <Route path="/" element={<HelloWorld greeting="friend"/>} />
       </Routes>
       </BrowserRouter>
