@@ -3,8 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from "../redux/configureStore";
 import HelloWorld from "./HelloWorld";
-class App extends React.Component {
-  render () {
+const App = () => {
     return (
     <Provider store= {store}>
       <BrowserRouter>
@@ -15,7 +14,6 @@ class App extends React.Component {
       </BrowserRouter>
     </Provider> 
     );
-  }
 }
 
 export default App
